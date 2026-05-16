@@ -8,6 +8,7 @@
         {
             if (string.IsNullOrWhiteSpace(value) || value.Length != 4)
                 throw new ArgumentException("MCC код должен состоять из 4 цифр");
+
             Value = value;
         }
 
