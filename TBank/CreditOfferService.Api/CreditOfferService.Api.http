@@ -1,0 +1,6 @@
+@CreditOfferService.Api_HostAddress = http://localhost:5047
+
+GET {{CreditOfferService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
